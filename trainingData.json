@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "greetings.hello",
+      "utterances": ["Hello", "Hi", "Hey"],
+      "answer": "Hello!"
+    },
+    {
+      "intent": "greetings.goodbye",
+      "utterances": ["Goodbye", "Bye", "See you later"],
+      "answer": "Goodbye!"
+    },
+    {
+      "intent": "greetings.name",
+      "utterances": ["What is your name?", "Who are you?"],
+      "answer": "My name is chatbot."
+    },
+    {
+      "intent": "greetings.myName",
+      "utterances": ["My name is $name"],
+      "answer": "Nice to meet you, $name."
+    }
+  ]
+}
+  

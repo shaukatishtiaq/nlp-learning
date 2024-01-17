@@ -1,7 +1,11 @@
 import { Module } from '@nestjs/common';
-import { NlpModule } from './nlp/nlp.module';
+import { NlpController } from './nlp/nlp.controller';
+import { NlpService } from './nlp/nlp.service';
 
 @Module({
-  imports: [NlpModule],
+  imports: [],
+  controllers: [NlpController],
+  providers: [NlpService],
 })
 export class AppModule {}
+
