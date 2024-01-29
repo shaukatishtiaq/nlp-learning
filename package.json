@@ -27,8 +27,11 @@
     "natural": "^6.10.4",
     "node-nlp": "^4.27.0",
     "pg": "^8.11.3",
+    "pos": "^0.4.2",
     "reflect-metadata": "^0.1.13",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "wink-nlp": "^1.14.3",
+    "wink-pos-tagger": "^2.2.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
